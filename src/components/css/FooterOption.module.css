@@ -1,9 +1,6 @@
 .footer__option {
   color: inherit;
   text-decoration: none;
-}
-
-.footer__option > .MuiSvgIcon-root {
   margin: 8px;
 }
 
