@@ -26,3 +26,6 @@ jobs:
 
       - name: Build project
         run: CI=false npm run build
+
+      - name: Run tests
+        run: npm run test
