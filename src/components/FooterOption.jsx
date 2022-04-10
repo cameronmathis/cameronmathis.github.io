@@ -1,10 +1,11 @@
-import * as styles from "./css/FooterOption.module.css";
 import React from "react";
+
+import "./css/FooterOption.css";
 
 const FooterOption = (props) => {
   return (
     <a
-      className={styles.footer__option}
+      className="footer__option"
       data-testid="footer__option"
       aria-label="Footer option"
       target="blank"

@@ -1,6 +1,7 @@
-import * as styles from "./css/BackToTopButton.module.css";
 import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward";
 import React, { useState } from "react";
+
+import "./css/BackToTopButton.css";
 
 const BackToTopButton = () => {
   const [style, setStyle] = useState({ display: "flex" });
@@ -15,7 +16,7 @@ const BackToTopButton = () => {
 
   return (
     <a
-      className={styles.back__to__top__button}
+      className="back__to__top__button"
       data-testid="back__to__top__button"
       aria-label="Back to top"
       href="#top"
