@@ -1,11 +1,9 @@
-import React, { useState, useRef } from "react";
-// import services
+import * as styles from "./css/Header.module.css";
+import React, { useRef, useState } from "react";
+
 import { useOnClickOutside } from "../services/Hooks";
-// import components
 import Menu from "./Menu";
 import MenuButton from "./MenuButton";
-// import css
-import "./css/Header.css";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
@@ -14,10 +12,10 @@ const Header = () => {
   useOnClickOutside(headerRef, () => setOpen(false));
 
   return (
-    <header className="header" id="header" data-testid="header">
+    <header className={styles.header} id="header" data-testid="header">
       <div ref={headerRef}>
         <MenuButton open={open} setOpen={setOpen} />
-        <Menu className="menu" open={open} setOpen={setOpen} id="menu" />
+        <Menu className={styles.menu} open={open} setOpen={setOpen} id="menu" />
       </div>
     </header>
   );

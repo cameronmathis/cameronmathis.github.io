@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import Projects from "../../pages/Projects";
+import Projects from "../../sections/Projects";
 
 test("renders the projects section", () => {
   render(<Projects />);
