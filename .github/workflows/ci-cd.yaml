@@ -34,7 +34,7 @@ jobs:
       - name: Copy google verification html
         env:
           FILE_SRC_PATH: "googlea6fd545aadd29327.html"
-          FILE_DEST_PATH: "./dist/googlea6fd545aadd29327.html"
+          FILE_DEST_PATH: "./dist"
         run: |
           mv $SRC_FILE_PATH $FILE_DEST_PATH
 
