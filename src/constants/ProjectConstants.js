@@ -29,7 +29,7 @@ const EXTREME_STREET_CROSSER = {
 
 const ROCK_PAPER_SCISSORS = {
   name: "Rock Paper Scissors",
-  link: "https://github.com/cameronmathis/RockPaperScissors-React",
+  link: "https://cameronmathis.github.io/RockPaperScissors",
   image: RockPaperScissors,
 };
 
@@ -53,7 +53,7 @@ const QR_CODE_GENERATOR = {
 
 const TAC_IO = {
   name: "Tac.io",
-  link: "https://cameronmathis.github.io/tac.io/",
+  link: "https://cameronmathis.github.io/tac.io",
   image: Tacio,
 };
 
