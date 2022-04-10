@@ -2,8 +2,6 @@ import * as styles from "./css/MenuButton.module.css";
 import { bool, func } from "prop-types";
 import React from "react";
 
-import "./css/MenuButton.css";
-
 const MenuButton = ({ open, setOpen, ...props }) => {
   const isExpanded = open ? true : false;
 
@@ -12,6 +10,7 @@ const MenuButton = ({ open, setOpen, ...props }) => {
     spanTwo: { opacity: 0, transform: "translateX(-20px)" },
     spanThree: { transform: "rotate(-45deg)" },
   };
+
   const closedStyle = {
     spanOne: { transform: "rotate(0)" },
     spanTwo: { opacity: 1, transform: "translateX(0)" },
@@ -29,14 +28,17 @@ const MenuButton = ({ open, setOpen, ...props }) => {
       {...props}
     >
       <span
+        className={styles.menu__button__span}
         data-testid="span"
         style={open ? openStyle.spanOne : closedStyle.spanOne}
       />
       <span
+        className={styles.menu__button__span}
         data-testid="span"
         style={open ? openStyle.spanTwo : closedStyle.spanTwo}
       />
       <span
+        className={styles.menu__button__span}
         data-testid="span"
         style={open ? openStyle.spanThree : closedStyle.spanThree}
       />
