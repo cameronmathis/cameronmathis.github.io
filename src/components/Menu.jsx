@@ -1,7 +1,6 @@
 import { bool } from "prop-types";
 import React from "react";
 import * as styles from "./css/Menu.module.css";
-import "./css/Menu.css";
 
 const Menu = ({ open, setOpen, ...props }) => {
   const isHidden = open ? true : false;
@@ -22,7 +21,6 @@ const Menu = ({ open, setOpen, ...props }) => {
 
   return (
     <nav
-      className={styles.menu}
       data-testid="menu"
       style={isHidden ? openStyle.menu : closedStyle.menu}
       open={isHidden}
@@ -30,6 +28,7 @@ const Menu = ({ open, setOpen, ...props }) => {
       {...props}
     >
       <a
+        className={styles.menu__option}
         href="#about"
         tabIndex={tabIndex}
         style={isHidden ? openStyle.words : closedStyle.words}
@@ -38,6 +37,7 @@ const Menu = ({ open, setOpen, ...props }) => {
         About
       </a>
       <a
+        className={styles.menu__option}
         href="#resume"
         tabIndex={tabIndex}
         style={isHidden ? openStyle.words : closedStyle.words}
@@ -46,6 +46,7 @@ const Menu = ({ open, setOpen, ...props }) => {
         Resume
       </a>
       <a
+        className={styles.menu__option}
         href="#projects"
         tabIndex={tabIndex}
         style={isHidden ? openStyle.words : closedStyle.words}

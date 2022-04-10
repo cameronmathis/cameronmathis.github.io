@@ -20,7 +20,7 @@ const MenuButton = ({ open, setOpen, ...props }) => {
 
   return (
     <button
-      className="menu__button"
+      className={styles.menu__button}
       data-testid="menu__button"
       aria-label="Toggle menu"
       aria-expanded={isExpanded}

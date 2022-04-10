@@ -16,7 +16,7 @@ const Header = () => {
     <header className={styles.header} id="header" data-testid="header">
       <div ref={headerRef}>
         <MenuButton open={open} setOpen={setOpen} />
-        <Menu className="menu" open={open} setOpen={setOpen} id="menu" />
+        <Menu className={styles.menu} open={open} setOpen={setOpen} id="menu" />
       </div>
     </header>
   );
