@@ -11,7 +11,6 @@ const Menu = ({ open, setOpen, ...props }) => {
     menu: { transform: "translateX(0)" },
     words: { display: "flex" },
   };
-
   const closedStyle = {
     menu: { transform: "translateX(100%)" },
     words: { display: "none" },
