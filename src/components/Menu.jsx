@@ -1,6 +1,6 @@
-import React from "react";
 import { bool } from "prop-types";
-// import css
+import React from "react";
+
 import "./css/Menu.css";
 
 const Menu = ({ open, setOpen, ...props }) => {
@@ -11,6 +11,7 @@ const Menu = ({ open, setOpen, ...props }) => {
     menu: { transform: "translateX(0)" },
     words: { display: "flex" },
   };
+
   const closedStyle = {
     menu: { transform: "translateX(100%)" },
     words: { display: "none" },

@@ -11,9 +11,6 @@
 .job__title {
   margin: 0;
   font-size: var(--fs-h3);
-}
-
-.about__job__title {
   background: var(--clr-accent);
   padding: 0.25em 1em;
   font-family: var(--ff-secondary);
@@ -39,9 +36,6 @@
   .about__title {
     grid-area: title;
     overflow: hidden;
-  }
-
-  .about__job__title {
     grid-column: 1 / -1;
     grid-row: 2;
     position: relative;

@@ -1,6 +1,8 @@
-import React from "react";
 import { bool, func } from "prop-types";
-// import css
+import React from "react";
+
+import * as styles from "./css/MenuButton.module.css";
+
 import "./css/MenuButton.css";
 
 const MenuButton = ({ open, setOpen, ...props }) => {
@@ -19,7 +21,7 @@ const MenuButton = ({ open, setOpen, ...props }) => {
 
   return (
     <button
-      className="menu__button"
+      className={styles.menu__button}
       data-testid="menu__button"
       aria-label="Toggle menu"
       aria-expanded={isExpanded}

@@ -40,13 +40,6 @@ The app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run deploy`
-
-Builds the app for production to the `build` folder.\
-
-Deploys the app to GitHub Pages.\
-The app is live! Open [http://cameronmathis.github.io](http://cameronmathis.github.io) to view it in any browser.
-
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
