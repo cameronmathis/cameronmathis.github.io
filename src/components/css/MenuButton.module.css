@@ -15,7 +15,7 @@
   margin: 0 0.5rem;
 }
 
-span {
+.menu__button__span {
   width: 2rem;
   height: 0.25rem;
   background: var(--clr-dark);
