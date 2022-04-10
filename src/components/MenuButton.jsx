@@ -1,7 +1,6 @@
+import * as styles from "./css/MenuButton.module.css";
 import { bool, func } from "prop-types";
 import React from "react";
-
-import * as styles from "./css/MenuButton.module.css";
 
 import "./css/MenuButton.css";
 

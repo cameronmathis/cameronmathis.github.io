@@ -1,6 +1,6 @@
 import { bool } from "prop-types";
 import React from "react";
-
+import * as styles from "./css/Menu.module.css";
 import "./css/Menu.css";
 
 const Menu = ({ open, setOpen, ...props }) => {
@@ -23,7 +23,7 @@ const Menu = ({ open, setOpen, ...props }) => {
 
   return (
     <nav
-      className="menu"
+      className={styles.menu}
       data-testid="menu"
       style={isHidden ? openStyle.menu : closedStyle.menu}
       open={isHidden}
