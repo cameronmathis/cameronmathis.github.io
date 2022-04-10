@@ -1,31 +1,24 @@
-import AUMBBTracker from "../images/projects/AUMBTracker.jpg";
+import AUMBBTracker from "../images/projects/AUMBBTracker.jpg";
 import ContactManagementSystem from "../images/projects/ContactManagementSystem.jpg";
 import ExtremeStreetCrosser from "../images/projects/ExtremeStreetCrosser.jpg";
-import HydraVirus from "../images/projects/HydraVirus.jpg";
 import QRCodeGenerator from "../images/projects/QRCodeGenerator.jpg";
 import RockPaperScissors from "../images/projects/RockPaperScissors.jpg";
 import SudokuSolver from "../images/projects/SudokuSolver.jpg";
 import SuperChat from "../images/projects/SuperChat.jpg";
+import Tacio from "../images/projects/tacio.jpg";
 
-// images that are 400 x 300 work best
+// images that are 4:3 work best
 
-// declare projects
+const AUMBB_TRACKER = {
+  name: "AUMBB Tracker",
+  link: "https://github.com/cameronmathis/AUMBBTracker",
+  image: AUMBBTracker,
+};
+
 const CONTACT_MANAGEMENT_SYSTEM = {
   name: "Contact Management System",
   link: "https://github.com/cameronmathis/ContactManagementSystem",
   image: ContactManagementSystem,
-};
-
-const SUPER_CHAT = {
-  name: "Super Chat",
-  link: "https://github.com/cameronmathis/SuperChat",
-  image: SuperChat,
-};
-
-const ROCK_PAPER_SCISSORS = {
-  name: "Rock Paper Scissors",
-  link: "https://github.com/cameronmathis/RockPaperScissors-React",
-  image: RockPaperScissors,
 };
 
 const EXTREME_STREET_CROSSER = {
@@ -34,22 +27,22 @@ const EXTREME_STREET_CROSSER = {
   image: ExtremeStreetCrosser,
 };
 
+const ROCK_PAPER_SCISSORS = {
+  name: "Rock Paper Scissors",
+  link: "https://github.com/cameronmathis/RockPaperScissors-React",
+  image: RockPaperScissors,
+};
+
 const SUDOKU_SOLVER = {
   name: "Sudoku Solver",
   link: "https://github.com/cameronmathis/SudokuSolver",
   image: SudokuSolver,
 };
 
-const AUMB_TRACKER = {
-  name: "AUMBB Tracker",
-  link: "https://github.com/cameronmathis/AUMBBTracker",
-  image: AUMBBTracker,
-};
-
-const HYDRA_VIRUS = {
-  name: "Hydra Virus",
-  link: "https://github.com/cameronmathis/HydraVirus",
-  image: HydraVirus,
+const SUPER_CHAT = {
+  name: "Super Chat",
+  link: "https://github.com/cameronmathis/SuperChat",
+  image: SuperChat,
 };
 
 const QR_CODE_GENERATOR = {
@@ -58,9 +51,17 @@ const QR_CODE_GENERATOR = {
   image: QRCodeGenerator,
 };
 
+const TAC_IO = {
+  name: "Tac.io",
+  link: "https://cameronmathis.github.io/tac.io/",
+  image: Tacio,
+};
+
 // create project array
 export const PROJECTS = [
-  CONTACT_MANAGEMENT_SYSTEM,
-  SUPER_CHAT,
+  TAC_IO,
   ROCK_PAPER_SCISSORS,
+  SUPER_CHAT,
+  CONTACT_MANAGEMENT_SYSTEM,
+  EXTREME_STREET_CROSSER,
 ];
