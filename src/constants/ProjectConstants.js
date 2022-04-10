@@ -11,7 +11,7 @@ import Tacio from "../images/projects/tacio.jpg";
 
 const AUMBB_TRACKER = {
   name: "AUMBB Tracker",
-  link: "https://github.com/cameronmathis/AUMBBTracker",
+  link: "https://twitter.com/AUMBBTracker",
   image: AUMBBTracker,
 };
 
