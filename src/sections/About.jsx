@@ -11,9 +11,24 @@ function About() {
         {ABOUT_CONSTANTS.JOB_TITLE}
       </p>
       <div className={styles.about__body}>
-        <p data-testid="paragraph__one">{ABOUT_CONSTANTS.PARAGRAPH_ONE}</p>
-        <p data-testid="paragraph__two">{ABOUT_CONSTANTS.PARAGRAPH_TWO}</p>
-        <p data-testid="paragraph__three">{ABOUT_CONSTANTS.PARAGRAPH_THREE}</p>
+        <p
+          className={styles.about__body__paragraph}
+          data-testid="paragraph__one"
+        >
+          {ABOUT_CONSTANTS.PARAGRAPH_ONE}
+        </p>
+        <p
+          className={styles.about__body__paragraph}
+          data-testid="paragraph__two"
+        >
+          {ABOUT_CONSTANTS.PARAGRAPH_TWO}
+        </p>
+        <p
+          className={styles.about__body__paragraph}
+          data-testid="paragraph__three"
+        >
+          {ABOUT_CONSTANTS.PARAGRAPH_THREE}
+        </p>
       </div>
       <img src={ABOUT_CONSTANTS.IMAGE} alt="" className={styles.about__image} />
     </section>
