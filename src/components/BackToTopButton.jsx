@@ -1,6 +1,6 @@
-import * as styles from "./css/BackToTopButton.module.css";
-import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward";
+import { ArrowUpward as ArrowUpwardIcon } from "@mui/icons-material";
 import React, { useState } from "react";
+import * as styles from "./css/BackToTopButton.module.css";
 
 const BackToTopButton = () => {
   const [style, setStyle] = useState({ display: "flex" });

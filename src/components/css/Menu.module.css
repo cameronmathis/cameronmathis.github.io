@@ -7,7 +7,7 @@
   padding: 0;
   font-weight: bold;
   letter-spacing: 0.5rem;
-  color: var(--clr-dark);
+  color: var(--clr-light);
   text-decoration: none;
   text-align: center;
   transition: color 0.3s linear;

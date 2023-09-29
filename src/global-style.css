@@ -1,9 +1,13 @@
-@import "../constants/Colors.css";
+@import "./constants/Colors.css";
 
 *,
 *::before,
 *::after {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 *::-webkit-scrollbar {
@@ -49,8 +53,6 @@ html {
 }
 
 body {
-  background: var(--clr-light);
-  color: var(--clr-dark);
   margin: 0;
   font-family: var(--ff-primary);
   font-size: var(--fs-body);

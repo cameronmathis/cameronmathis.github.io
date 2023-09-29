@@ -1,11 +1,13 @@
 .about {
   max-width: 1000px;
   margin: 0 auto;
+  color: var(--clr-accent-dark);
 }
 
 .name {
   margin-bottom: 0.25em;
   overflow: hidden;
+  color: var(--clr-accent-dark);
 }
 
 .job__title {
@@ -13,6 +15,7 @@
   font-size: var(--fs-h3);
   background: var(--clr-accent);
   padding: 0.25em 1em;
+  color: var(--clr-light);
   font-family: var(--ff-secondary);
   margin-bottom: 1em;
   text-align: center;

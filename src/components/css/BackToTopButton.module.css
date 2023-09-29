@@ -1,6 +1,6 @@
 .back__to__top__button {
   background: var(--clr-accent);
-  color: var(--clr-dark);
+  color: var(--clr-light);
   box-shadow: 0 0 5px var(--clr-dark);
   overflow: hidden;
   position: fixed;
