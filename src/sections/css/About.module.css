@@ -25,6 +25,10 @@
   box-shadow: var(--bs);
 }
 
+.about__image:hover {
+  box-shadow: 0 0 50px var(--clr-dark);
+}
+
 .about__body__paragraph {
   padding: 0.25em 1em;
 }

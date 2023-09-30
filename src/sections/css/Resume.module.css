@@ -19,8 +19,5 @@
   width: auto;
   height: auto;
   min-width: 200px;
-}
-
-.resume__image:hover {
   box-shadow: 0 0 50px var(--clr-dark);
 }
