@@ -1,8 +1,11 @@
 import { bool } from "prop-types";
 import React from "react";
+import { useTranslation } from 'react-i18next';
 import * as styles from "./css/Menu.module.css";
 
-const Menu = ({ open, setOpen, ...props }) => {
+function Menu({ open, setOpen, ...props }) {
+  const { t } = useTranslation('header');
+
   const isHidden = open ? true : false;
   const tabIndex = isHidden ? 0 : -1;
 
@@ -29,30 +32,30 @@ const Menu = ({ open, setOpen, ...props }) => {
     >
       <a
         className={styles.menu__option}
-        href="#about"
+        href={t('menu.menuItems.item1.href')}
         tabIndex={tabIndex}
         style={isHidden ? openStyle.words : closedStyle.words}
         onClick={handleClick}
       >
-        About
+        {t('menu.menuItems.item1.text')}
       </a>
       <a
         className={styles.menu__option}
-        href="#resume"
+        href={t('menu.menuItems.item2.href')}
         tabIndex={tabIndex}
         style={isHidden ? openStyle.words : closedStyle.words}
         onClick={handleClick}
       >
-        Resume
+        {t('menu.menuItems.item2.text')}
       </a>
       <a
         className={styles.menu__option}
-        href="#projects"
+        href={t('menu.menuItems.item3.href')}
         tabIndex={tabIndex}
         style={isHidden ? openStyle.words : closedStyle.words}
         onClick={handleClick}
       >
-        Projects
+        {t('menu.menuItems.item3.text')}
       </a>
     </nav>
   );

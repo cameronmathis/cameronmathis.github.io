@@ -1,0 +1,18 @@
+{
+    "menu": {
+        "menuItems": {
+            "item1": {
+                "text": "About",
+                "href": "#about"
+            },
+            "item2": {
+                "text": "Resume",
+                "href": "#resume"
+            },
+            "item3": {
+                "text": "Projects",
+                "href": "#projects"
+            }
+        }
+    }
+}

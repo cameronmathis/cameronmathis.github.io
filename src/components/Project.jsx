@@ -3,7 +3,7 @@ import React from "react";
 
 import AltImage from "../images/projects/AltImage.jpg";
 
-const Project = (props) => {
+function Project(props) {
   return (
     <a
       className={styles.project__item}

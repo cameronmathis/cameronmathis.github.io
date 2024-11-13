@@ -2,7 +2,7 @@ import { bool, func } from "prop-types";
 import React from "react";
 import * as styles from "./css/MenuButton.module.css";
 
-const MenuButton = ({ open, setOpen, ...props }) => {
+function MenuButton({ open, setOpen, ...props }) {
   const isExpanded = open ? true : false;
 
   const openStyle = {

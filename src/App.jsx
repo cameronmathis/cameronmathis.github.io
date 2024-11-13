@@ -1,6 +1,8 @@
 import React from "react";
 import { BrowserView } from "react-device-detect";
 
+import i18n from './i18n'
+
 import BackToTopButton from "./components/BackToTopButton";
 import Footer from "./components/Footer";
 import Header from "./components/Header";

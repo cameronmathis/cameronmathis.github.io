@@ -6,7 +6,7 @@ import MenuButton from "./MenuButton";
 
 import * as styles from "./css/Header.module.css";
 
-const Header = () => {
+function Header() {
   const [open, setOpen] = useState(false);
   const headerRef = useRef();
 

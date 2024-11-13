@@ -2,7 +2,7 @@ import { ArrowUpward as ArrowUpwardIcon } from "@mui/icons-material";
 import React, { useState } from "react";
 import * as styles from "./css/BackToTopButton.module.css";
 
-const BackToTopButton = () => {
+function BackToTopButton() {
   const [style, setStyle] = useState({ display: "flex" });
 
   window.onscroll = function () {

@@ -1,7 +1,7 @@
 import * as styles from "./css/FooterOption.module.css";
 import React from "react";
 
-const FooterOption = (props) => {
+function FooterOption(props) {
   return (
     <a
       className={styles.footer__option}
