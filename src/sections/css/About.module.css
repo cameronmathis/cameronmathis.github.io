@@ -1,65 +1,65 @@
 .about {
-  max-width: 1000px;
-  margin: 0 auto;
-  color: var(--clr-accent-dark);
+    max-width: 1000px;
+    margin: 0 auto;
+    color: var(--clr-accent-dark);
 }
 
 .name {
-  margin-bottom: 0.25em;
-  overflow: hidden;
-  color: var(--clr-accent-dark);
+    margin-bottom: 0.25em;
+    overflow: hidden;
+    color: var(--clr-accent-dark);
 }
 
 .job__title {
-  margin: 0;
-  font-size: var(--fs-h3);
-  background: var(--clr-accent);
-  padding: 0.25em 1em;
-  color: var(--clr-light);
-  font-family: var(--ff-secondary);
-  margin-bottom: 1em;
-  text-align: center;
+    margin: 0;
+    font-size: var(--fs-h3);
+    background: var(--clr-accent);
+    padding: 0.25em 1em;
+    color: var(--clr-light);
+    font-family: var(--ff-secondary);
+    margin-bottom: 1em;
+    text-align: center;
 }
 
 .about__image {
-  box-shadow: var(--bs);
+    box-shadow: var(--bs);
 }
 
 .about__image:hover {
-  box-shadow: 0 0 50px var(--clr-dark);
+    box-shadow: 0 0 50px var(--clr-dark);
 }
 
 .about__body__paragraph {
-  padding: 0.25em 1em;
+    padding: 0.25em 1em;
 }
 
 @media (min-width: 600px) {
-  .about {
-    display: grid;
-    grid-template-columns: 1fr 200px;
-    grid-template-areas:
-      "title img"
-      "subtitle img"
-      "text img";
-    grid-column-gap: 2em;
-  }
+    .about {
+        display: grid;
+        grid-template-columns: 1fr 200px;
+        grid-template-areas:
+            'title img'
+            'subtitle img'
+            'text img';
+        grid-column-gap: 2em;
+    }
 
-  .about__title {
-    grid-area: title;
-    overflow: hidden;
-    grid-column: 1 / -1;
-    grid-row: 2;
-    position: relative;
-    left: -1em;
-    width: calc(100% + 2em);
-    padding-left: 1em;
-    padding-right: calc(200px + 3em);
-  }
+    .about__title {
+        grid-area: title;
+        overflow: hidden;
+        grid-column: 1 / -1;
+        grid-row: 2;
+        position: relative;
+        left: -1em;
+        width: calc(100% + 2em);
+        padding-left: 1em;
+        padding-right: calc(200px + 3em);
+    }
 
-  .about__image {
-    grid-area: img;
-    min-width: 250px;
-    position: relative;
-    z-index: 2;
-  }
+    .about__image {
+        grid-area: img;
+        min-width: 250px;
+        position: relative;
+        z-index: 2;
+    }
 }
