@@ -1,20 +1,20 @@
 .back__to__top__button {
-  background: var(--clr-accent);
-  color: var(--clr-light);
-  box-shadow: 0 0 5px var(--clr-dark);
-  overflow: hidden;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  border: 0;
-  align-items: center;
-  justify-content: center;
-  z-index: 100;
+    background: var(--clr-accent);
+    color: var(--clr-light);
+    box-shadow: 0 0 5px var(--clr-dark);
+    overflow: hidden;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 0;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
 }
 
 .back__to__top__button:hover {
-  opacity: 0.7;
+    opacity: 0.7;
 }
