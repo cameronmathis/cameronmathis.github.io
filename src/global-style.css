@@ -1,93 +1,93 @@
-@import "./constants/Colors.css";
+@import './constants/Colors.css';
 
 *,
 *::before,
 *::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 *::-webkit-scrollbar {
-  background: var(--clr-accent-light);
-  width: 1rem;
+    background: var(--clr-accent-light);
+    width: 1rem;
 }
 *::-webkit-scrollbar-thumb {
-  background: var(--clr-accent-dark);
-  opacity: 0.7;
-  border-radius: 10px;
-  height: 5rem;
+    background: var(--clr-accent-dark);
+    opacity: 0.7;
+    border-radius: 10px;
+    height: 5rem;
 }
 
 /* Properties */
 :root {
-  --ff-primary: "Spartan", sans-serif;
-  --ff-secondary: "Spartan", sans-serif;
+    --ff-primary: 'Spartan', sans-serif;
+    --ff-secondary: 'Spartan', sans-serif;
 
-  --fw-reg: 200;
-  --fw-bold: 800;
+    --fw-reg: 200;
+    --fw-bold: 800;
 
-  --fs-h1: 3rem;
-  --fs-h2: 2.25rem;
-  --fs-h3: 1.25rem;
-  --fs-body: 1rem;
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
 
-  --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25),
-    0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
+    --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25),
+        0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
 }
 
 @media (min-width: 800px) {
-  :root {
-    --fs-h1: 4.5rem;
-    --fs-h2: 3.75rem;
-    --fs-h3: 1.5rem;
-    --fs-body: 1.125rem;
-  }
+    :root {
+        --fs-h1: 4.5rem;
+        --fs-h2: 3.75rem;
+        --fs-h3: 1.5rem;
+        --fs-body: 1.125rem;
+    }
 }
 
 /* General styles */
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
-  margin: 0;
-  font-family: var(--ff-primary);
-  font-size: var(--fs-body);
-  line-height: 1.6;
+    margin: 0;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    line-height: 1.6;
 }
 
 section {
-  padding: 8em 4em 8em;
+    padding: 8em 4em 8em;
 }
 
 img {
-  display: block;
-  max-width: 100%;
+    display: block;
+    max-width: 100%;
 }
 
 strong {
-  font-weight: var(--fw-bold);
+    font-weight: var(--fw-bold);
 }
 
 /* Typography */
 h1,
 h2,
 h3 {
-  line-height: 1;
-  margin: 0;
+    line-height: 1;
+    margin: 0;
 }
 
 h1 {
-  font-size: var(--fs-h1);
+    font-size: var(--fs-h1);
 }
 
 h2 {
-  font-size: var(--fs-h2);
+    font-size: var(--fs-h2);
 }
 
 h3 {
-  font-size: var(--fs-h3);
+    font-size: var(--fs-h3);
 }
